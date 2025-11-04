@@ -148,12 +148,12 @@ WHERE
 SELECT brand, COUNT(*) AS total FROM cellphones_data GROUP BY brand ORDER BY total DESC;
 SELECT model, COUNT(*) AS total FROM cellphones_data GROUP BY model ORDER BY total DESC;
 SELECT operating_system, COUNT(*) AS total FROM cellphones_data GROUP BY operating_system ORDER BY total DESC;
+
+-- Kolom Numerik (Angka)
 SELECT internal_memory, COUNT(*) AS total FROM cellphones_data GROUP BY internal_memory ORDER BY internal_memory;
 SELECT RAM, COUNT(*) AS total FROM cellphones_data GROUP BY RAM ORDER BY RAM;
 SELECT main_camera, COUNT(*) AS total FROM cellphones_data GROUP BY main_camera ORDER BY main_camera;
 SELECT selfie_camera, COUNT(*) AS total FROM cellphones_data GROUP BY selfie_camera ORDER BY selfie_camera;
-
--- Kolom Numerik (Angka)
 SELECT performance, COUNT(*) AS total FROM cellphones_data GROUP BY performance ORDER BY performance;
 SELECT battery_size, COUNT(*) AS total FROM cellphones_data GROUP BY battery_size ORDER BY battery_size;
 SELECT screen_size, COUNT(*) AS total FROM cellphones_data GROUP BY screen_size ORDER BY screen_size;
